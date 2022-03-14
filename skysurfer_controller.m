@@ -1,4 +1,4 @@
-%LQG controller design of skysurfer V4 UAV
+%LQRcontroller design of skysurfer V4 UAV
 %parameters obtained fro TU_Delft repository
 %Longitudinal controller
 % X' = AX+BU; Y = X
