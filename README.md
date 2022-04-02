@@ -1,2 +1,4 @@
 # LQR-control-for-fixed-wing-UAV
-The following code is a novice attempt to design a flight control algorithm for common hobby grade rc aircrafts. Please feel free to leave suggestions and comments
+The following code is a novice attempt to design a flight control algorithm for common hobby grade rc aircrafts. This project aims to compare the performance of full state optimal feedback control with conventional control strategies like PID. Integral action has been implemented in the State space system of the aircraft in order to remove the steady state error and efficient trajectory tracking. 
+First, a proof of concept analysis was performed in MATLAB. Stability and control parameters of skysurfer x8 UAV were used to design the controller. The control algorithm is currently in process of being implemented on arduino for flight test validation on ADAPT mk1, a twin engine micro UAV designed and fabricated in-house.
+Please feel free to leave suggestions and comments
